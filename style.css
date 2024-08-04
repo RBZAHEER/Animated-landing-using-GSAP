@@ -1,0 +1,279 @@
+@font-face {
+  font-family: china;
+  src: url(./GalanoGrotesqueRegular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: china;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* overflow-x: hidden; */
+  padding: 10px 60px;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .about {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.name {
+  display: flex;
+  align-items: center;
+}
+.name i {
+  font-size: 25px;
+  display: inline-block;
+  rotate: 45deg;
+}
+.name h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.name h4 {
+  font-weight: 400;
+}
+
+.reqADemo {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+#section2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+}
+
+#section2 .left {
+  width: 40%;
+  /* background-color: aqua; */
+  height: 100%;
+  padding: 20px 0px;
+}
+
+#section2 .right {
+  /* background-color: #00ff51; */
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+.left h1 {
+  font-size: 80px;
+  line-height: 1.2;
+  margin: 10px;
+}
+.left p {
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.left button {
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  margin: 10px;
+}
+
+.right img {
+  position: absolute;
+  right: 0;
+  width: 70%;
+}
+
+#section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+#section3 img {
+  height: 90px;
+}
+
+.services {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.services h1 {
+  background-color: #b9ff66;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.services p {
+  width: 35%;
+}
+
+.container {
+  margin-top: 50px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.elem {
+  height: 300px;
+  width: 47%;
+  border: 2px solid black;
+  border-radius: 50px;
+  /* background-color: red; */
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 10px 0px black;
+}
+
+.elem .leftpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftpart h2 {
+  font-size: 30px;
+  line-height: 1;
+  width: 55%;
+  background-color: #b9ff66;
+}
+
+.leftpart h4 i {
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 4px;
+  color: #b9ff66;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.black .leftpart h2 {
+  background-color: white;
+  color: black;
+}
+
+.black .leftpart h4 i {
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 4px;
+  color: black;
+  background-color: white;
+  margin-right: 10px;
+}
+
+#section5 .card {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+#section5 .card .leftcard {
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  margin-left: 50px;
+  /* background-color: aquamarine; */
+}
+
+.leftcard h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.leftcard p {
+  width: 55%;
+  margin-bottom: 20px;
+}
+
+.leftcard button {
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+
+.rightcard img {
+  height: 300px;
+  margin-left: 50px;
+}
+
+.casestudy {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.casestudy h1 {
+  background-color: #b9ff66;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.casestudy p {
+  width: 35%;
+}
+
+#section6 {
+  margin-top: 52px;
+  padding: 40px;
+  background-color: #191a23;
+  display: flex;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 60px;
+}
+
+.reviewelem {
+  width: 100%;
+  border-right: 1px solid white;
+  padding: 60px;
+}
+
+.reviewelem h4 {
+  color: #b9ff66;
+  margin-top: 40px;
+}
+
+.nb {
+  border: none;
+}
